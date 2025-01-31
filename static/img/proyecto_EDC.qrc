@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="iconos_main_window">
+    <file>gui_print_preview_icon_157060.png</file>
+    <file>clientes.png</file>
+    <file>empleados.png</file>
+    <file>proveedor.png</file>
+    <file>venta-de-productos.png</file>
+  </qresource>
+</RCC>

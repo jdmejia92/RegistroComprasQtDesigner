@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>711</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegistro">
+    <property name="title">
+     <string>Registro</string>
+    </property>
+    <addaction name="actionClientes"/>
+    <addaction name="actionEmpleados"/>
+    <addaction name="actionProductos"/>
+    <addaction name="actionProveedor"/>
+   </widget>
+   <widget class="QMenu" name="menuComprobantes">
+    <property name="title">
+     <string>Comprobantes</string>
+    </property>
+    <addaction name="actionVista_Previa"/>
+   </widget>
+   <addaction name="menuRegistro"/>
+   <addaction name="menuComprobantes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionClientes">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../../../../qtdesigner_resourcers/client.qrc">
+     <normaloff>:/Menu/client.png</normaloff>:/Menu/client.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;file:///Users/juanmejiahoyos/Documents/qtdesigner_resourcers/client.png Clientes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionEmpleados">
+   <property name="icon">
+    <iconset resource="../../../../../../qtdesigner_resourcers/client.qrc">
+     <normaloff>:/Menu/empleados.png</normaloff>:/Menu/empleados.png</iconset>
+   </property>
+   <property name="text">
+    <string>Empleados</string>
+   </property>
+  </action>
+  <action name="actionProductos">
+   <property name="icon">
+    <iconset resource="../../../../../../qtdesigner_resourcers/client.qrc">
+     <normaloff>:/Menu/productos.png</normaloff>:/Menu/productos.png</iconset>
+   </property>
+   <property name="text">
+    <string>Productos</string>
+   </property>
+  </action>
+  <action name="actionProveedor">
+   <property name="icon">
+    <iconset resource="../../../../../../qtdesigner_resourcers/client.qrc">
+     <normaloff>:/Menu/proveedor.png</normaloff>:/Menu/proveedor.png</iconset>
+   </property>
+   <property name="text">
+    <string>Proveedor</string>
+   </property>
+  </action>
+  <action name="actionVista_Previa">
+   <property name="icon">
+    <iconset resource="../../../../../../qtdesigner_resourcers/client.qrc">
+     <normaloff>:/Menu/gui_print_preview_icon_157060.png</normaloff>:/Menu/gui_print_preview_icon_157060.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vista Previa</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../../../../../qtdesigner_resourcers/client.qrc"/>
+ </resources>
+ <connections/>
+</ui>

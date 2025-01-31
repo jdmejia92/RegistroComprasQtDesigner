@@ -1,0 +1,2 @@
+0014,zapato,zapato,1,10,20.0,50.0,Seleccionar Proveedor,Selccionar Almacen
+1,computadora,computadora,1,10,50.0,10.0,aaaaa,Mall 1
